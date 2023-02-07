@@ -1,7 +1,7 @@
 {
-  "name": "library-from-scratch",
+  "name": "@muzamilabbas/template-component-library",
   "version": "0.0.1",
-  "description": "A react mui component library from scratch",
+  "description": "A react component library from scratch",
   "scripts": {
     "rollup": "rollup -c"
   },
@@ -28,5 +28,8 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "type": "module"
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/muzamilabbas"
+  }
 }
